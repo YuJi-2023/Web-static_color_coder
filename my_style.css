@@ -23,7 +23,7 @@ body div.container {
 }
 
 header h1 {
-    background-image: url(./logo.png);
+    background-image: url(image/logo.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin: 100px 200px;
