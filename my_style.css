@@ -1,0 +1,199 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(181, 150, 192);
+    color: white;
+    height: 2000px;
+}
+
+body div.container {
+    min-width: 1024px;
+    margin: 0 auto;
+}
+
+header h1 {
+    background-image: url(./logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 100px 200px;
+    padding: 50px 200px 50px 300px;
+    background-color: rgba(148, 130, 154, 0.877);
+    border-radius: 10%;
+    transition-property: all;
+}
+
+header h1:hover {
+    opacity: 80%;
+    color:rgba(158, 88, 188, 0.715);
+    background-color:azure;
+    transition-duration: 2s;
+}
+
+main .shelf_1 h2 {
+    text-align: center;
+    background-color: rgb(118, 76, 148);
+    margin: 12px 350px;
+    padding: 15px 40px;
+    border-radius: 10%;
+    transition: all;
+    font-size: 25px;
+}
+
+main .shelf_2 h2 {
+    text-align: center;
+    background-color: rgba(13, 77, 13, 0.711);
+    margin: 12px 350px;
+    padding: 15px 40px;
+    border-radius: 10%;
+    transition: all;
+    font-size: 25px;
+}
+
+main .shelf_3 h2 {
+    text-align: center;
+    background-color: rgb(81, 96, 141);
+    margin: 12px 350px;
+    padding: 15px 40px;
+    border-radius: 10%;
+    transition: all;
+    font-size: 25px;
+}
+
+main .shelf_1 h2:hover {
+    transition-duration: 1s;
+    color: rgb(222, 168, 235);
+    font-size: 32px;
+}
+
+main .shelf_2 h2:hover {
+    transition-duration: 1s;
+    color: rgba(180, 239, 206, 0.923);
+    font-size: 32px;
+}
+
+main .shelf_3 h2:hover {
+    transition-duration: 1s;
+    color: rgba(160, 182, 228, 0.923);
+    font-size: 32px;
+}
+
+main .poem {
+    display: block;
+    padding-left: 45%;
+    padding-top: 10px;
+    line-height: 15px;
+    font-size: 20px;
+    font-family: fantasy;
+    color: white;
+}
+main .shelf_1 ul {
+    display: flex;
+    list-style: none;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 120;
+    font-family: fantasy;
+    color: rgb(51, 17, 84);
+    padding-left: 25%;
+}
+
+main .shelf_2 ul {
+    display: flex;
+    list-style: none;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 120;
+    font-family: fantasy;
+    color: rgba(2, 41, 14, 0.673);
+    padding-left: 25%;
+}
+
+main .shelf_3 ul {
+    display: flex;
+    list-style: none;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 120;
+    font-family: fantasy;
+    color: rgb(9, 9, 84);
+    padding-left: 25%;
+}
+
+main .shelf_1 ul img {
+    display: block;
+    width: 100px;
+    height: 150px;
+    border: 1px;
+    border-radius: 5%;
+    margin: 20px;
+    transition: all;
+}
+
+main .shelf_1 ul img:hover {
+    opacity: 60%;
+    width: 120px;
+    height: 180px;
+    transition-duration: 1s;
+}
+
+main .shelf_2 ul img {
+    display: block;
+    width: 100px;
+    height: 150px;
+    border: 1px;
+    border-radius: 5%;
+    margin: 20px;
+    transition: all;
+}
+
+main .shelf_3 ul img:hover {
+    opacity: 60%;
+    width: 120px;
+    height: 180px;
+    transition-duration: 1s;
+}
+
+main .shelf_3 ul img {
+    display: block;
+    width: 100px;
+    height: 150px;
+    border: 1px;
+    border-radius: 5%;
+    margin: 20px;
+    transition: all;
+}
+
+main .shelf_2 ul img:hover {
+    opacity: 60%;
+    width: 120px;
+    height: 180px;
+    transition-duration: 1s;
+}
+
+footer div.container {
+    display: block;
+    width: 1024px;
+}
+
+footer div.container h3 {
+    padding-left: 50%;
+    padding-top: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+      background-color: lightgray;
+      color: black;
+    }
+}
