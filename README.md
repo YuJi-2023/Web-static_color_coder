@@ -20,4 +20,4 @@ The deployment process is fully automated. Here's how it works:
 
 You can view the deployed site by following this link: [View the Site](https://sophia-bookish.s3.ap-southeast-2.amazonaws.com/index.html)
 
-![preview](images/preview.png)
+![preview](image/preview.png)
