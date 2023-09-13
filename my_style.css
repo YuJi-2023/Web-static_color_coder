@@ -51,6 +51,7 @@ header h1:hover {
     color:rgba(158, 88, 188, 0.715);
     background-color:rgb(236, 232, 232);
     transition-duration: 1s;
+    cursor: pointer;
 }
 
 main .shelf_1 h2 {
@@ -87,18 +88,21 @@ main .shelf_1 h2:hover {
     transition-duration: 1s;
     color: rgb(222, 168, 235);
     font-size: 32px;
+    cursor: pointer;
 }
 
 main .shelf_2 h2:hover {
     transition-duration: 1s;
     color: rgba(180, 239, 206, 0.923);
     font-size: 32px;
+    cursor: pointer;
 }
 
 main .shelf_3 h2:hover {
     transition-duration: 1s;
     color: rgba(160, 182, 228, 0.923);
     font-size: 32px;
+    cursor: pointer;
 }
 
 main .poem {
@@ -158,6 +162,7 @@ main .shelf_1 ul img:hover {
     width: 120px;
     height: 180px;
     transition-duration: 1s;
+    cursor: pointer;
 }
 
 main .shelf_2 ul img {
@@ -175,6 +180,7 @@ main .shelf_3 ul img:hover {
     width: 120px;
     height: 180px;
     transition-duration: 1s;
+    cursor: pointer;
 }
 
 main .shelf_3 ul img {
@@ -192,6 +198,7 @@ main .shelf_2 ul img:hover {
     width: 120px;
     height: 180px;
     transition-duration: 1s;
+    cursor: pointer;
 }
 
 footer div.container {
