@@ -54,34 +54,26 @@ header h1:hover {
     cursor: pointer;
 }
 
-main .shelf_1 h2 {
+main .shelf h2 {
     text-align: center;
-    background-color: rgb(118, 76, 148);
-    margin: 12px 350px;
     padding: 15px 40px;
     border-radius: 10%;
     transition: all;
     font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 0px;
+}
+
+main .shelf_1 h2 {
+    background-color: rgb(118, 76, 148);
 }
 
 main .shelf_2 h2 {
-    text-align: center;
     background-color: rgba(13, 77, 13, 0.711);
-    margin: 12px 350px;
-    padding: 15px 40px;
-    border-radius: 10%;
-    transition: all;
-    font-size: 25px;
 }
 
 main .shelf_3 h2 {
-    text-align: center;
     background-color: rgb(81, 96, 141);
-    margin: 12px 350px;
-    padding: 15px 40px;
-    border-radius: 10%;
-    transition: all;
-    font-size: 25px;
 }
 
 main .shelf_1 h2:hover {
@@ -107,47 +99,35 @@ main .shelf_3 h2:hover {
 
 main .poem {
     display: block;
-    padding-left: 45%;
     padding-top: 10px;
     line-height: 15px;
     font-size: 20px;
     font-family: fantasy;
     color: black;
+    text-align: center;
 }
 main .shelf_1 ul {
-    display: flex;
-    list-style: none;
-    line-height: 25px;
-    font-size: 16px;
-    font-weight: 120;
-    font-family: fantasy;
     color: rgb(51, 17, 84);
-    padding-left: 25%;
 }
 
 main .shelf_2 ul {
-    display: flex;
-    list-style: none;
-    line-height: 25px;
-    font-size: 16px;
-    font-weight: 120;
-    font-family: fantasy;
     color: rgba(2, 41, 14, 0.673);
-    padding-left: 25%;
 }
 
 main .shelf_3 ul {
+    color: rgb(9, 9, 84);
+}
+
+main .shelf ul {
     display: flex;
     list-style: none;
     line-height: 25px;
     font-size: 16px;
     font-weight: 120;
     font-family: fantasy;
-    color: rgb(9, 9, 84);
-    padding-left: 25%;
 }
 
-main .shelf_1 ul img {
+main .shelf ul img {
     display: block;
     width: 100px;
     height: 150px;
@@ -157,7 +137,7 @@ main .shelf_1 ul img {
     transition: all;
 }
 
-main .shelf_1 ul img:hover {
+main .shelf ul img:hover {
     opacity: 60%;
     width: 120px;
     height: 180px;
@@ -165,40 +145,13 @@ main .shelf_1 ul img:hover {
     cursor: pointer;
 }
 
-main .shelf_2 ul img {
-    display: block;
-    width: 100px;
-    height: 150px;
-    border: 1px;
-    border-radius: 5%;
-    margin: 20px;
-    transition: all;
+main .shelf ul li {
+    flex: 1;
 }
 
-main .shelf_3 ul img:hover {
-    opacity: 60%;
-    width: 120px;
-    height: 180px;
-    transition-duration: 1s;
-    cursor: pointer;
-}
-
-main .shelf_3 ul img {
-    display: block;
-    width: 100px;
-    height: 150px;
-    border: 1px;
-    border-radius: 5%;
-    margin: 20px;
-    transition: all;
-}
-
-main .shelf_2 ul img:hover {
-    opacity: 60%;
-    width: 120px;
-    height: 180px;
-    transition-duration: 1s;
-    cursor: pointer;
+.container {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 footer div.container {
@@ -207,8 +160,8 @@ footer div.container {
 }
 
 footer div.container h3 {
-    padding-left: 50%;
-    padding-top: 50%;
+    text-align: center;
+    padding-top: 100px;
 }
 
 @media only screen and (max-width: 1200px) {
