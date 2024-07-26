@@ -3,18 +3,29 @@
   <head>
     <title>Color Coded Reading</title>
     <link rel="icon" type="image/x-icon" href="./image/favicon.ico" />
-    <link rel="stylesheet" href="./my_style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
       <div class="container">
         <h1>Color Coded Reading</h1>
       </div>
+      <div class="search">
+        <form>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="show your true color"
+          />
+          <button id="searchBtn" onclick="searchFunc()">Search</button>
+          <button id="clearBtn" type="reset"">Clear</button>
+        </form>
+      </div>
     </header>
     <main>
-      <p id="dividimg">hey</p>
+      <div id="dividimg"></div>
       <div class="container">
-        <div class="shelf_1 shelf">
+        <div class="shelf_1 shelf" id="purple">
           <h2>Shelf One</h2>
           <article class="poem">
             <p>In fields of lavender,</p>
@@ -46,7 +57,7 @@
             </ul>
           </div>
         </div>
-        <div class="shelf_2 shelf">
+        <div class="shelf_2 shelf" id="green">
           <h2>Shelf Two</h2>
           <article class="poem">
             <p>Amidst nature's grace,</p>
@@ -78,7 +89,7 @@
             </ul>
           </div>
         </div>
-        <div class="shelf_3 shelf">
+        <div class="shelf_3 shelf" id="blue">
           <h2>Shelf Three</h2>
           <article class="poem">
             <p>Beneath the sky's embrace,</p>
@@ -116,9 +127,14 @@
     </main>
     <footer>
       <div class="footercontainer">
-        <img src="./image/bgheader.jpg" alt="heart clipped bookcover" id="footerclip">
+        <img
+          src="./image/bgheader.jpg"
+          alt="heart clipped bookcover"
+          id="footerclip"
+        />
         <h3>decoder@sophia</h3>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
