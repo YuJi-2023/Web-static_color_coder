@@ -27,10 +27,10 @@ html {
 
 body {
     background-color: rgb(236, 232, 232);
-    height: 2000px;
+    height: 100vh;
 }
 
-header div nav {
+header div {
     margin: 50px;
     padding: 15px;
 }
@@ -164,6 +164,23 @@ footer div.container h3 {
     padding-top: 100px;
 }
 
+.footercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 @media only screen and (max-width: 1200px) {
 
+}
+
+#dividimg {
+    background: url(./image/bgheader.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    height: 80vh;
+}
+#footerclip {
+    height: 10rem;
+    margin-top: 5rem;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);    
 }
